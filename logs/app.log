@@ -1295,3 +1295,8 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [succe
 2019-08-06 16:55:44,350 DEBUG c.d.r.RentACarApplication [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-08-06 16:55:44,350 INFO c.d.r.RentACarApplication [restartedMain] No active profile set, falling back to default profiles: default
 2019-08-06 16:55:44,838 INFO c.d.r.RentACarApplication [restartedMain] Started RentACarApplication in 0.536 seconds (JVM running for 145.139)
+2019-09-02 17:55:27,860 INFO c.d.r.c.SearchCarControllerTest [main] Starting SearchCarControllerTest on WPUDS10805L with PID 15832 (started by ds10805 in C:\workspaces\rent-a-car-git\RentACar)
+2019-09-02 17:55:27,889 DEBUG c.d.r.c.SearchCarControllerTest [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-09-02 17:55:27,890 INFO c.d.r.c.SearchCarControllerTest [main] No active profile set, falling back to default profiles: default
+2019-09-02 17:55:30,662 INFO c.d.r.c.SearchCarControllerTest [main] Started SearchCarControllerTest in 3.199 seconds (JVM running for 5.701)
+2019-09-02 17:55:30,940 INFO c.d.r.c.SearchCarController [main] Searching available cars for city:

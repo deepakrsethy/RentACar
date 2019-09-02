@@ -1,6 +1,6 @@
 package com.deepak.rentACar.controller;
 
-import java.util.List;
+import java.util.*;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,7 +19,9 @@ public class SearchCarController {
 	@GetMapping(value="/rentACar/search/{city}")
 	public List<Car> searchCarsInACity(@PathVariable String city){
 		logger.info("Searching available cars for city:"+city);
-		return null;
+		List<Car> carsForCity = new ArrayList<>();
+		
+		return carsForCity ;
 		
 	}
 
