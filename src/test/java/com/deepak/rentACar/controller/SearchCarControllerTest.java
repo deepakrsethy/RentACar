@@ -37,6 +37,7 @@ public class SearchCarControllerTest {
 	@Test
 	public void testSearch() throws Exception{
 		Assert.assertNotNull(controller.searchCarsInACity(""));
+		
 	}
 	@After
 	public void cleanUp(){
